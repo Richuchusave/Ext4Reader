@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ext4reader.partition.ProberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-03T23:18:25.231Z" hostname="localhost" time="0.111">
+<testsuite name="ext4reader.partition.ProberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-04T00:30:46.840Z" hostname="localhost" time="0.159">
   <properties/>
-  <testcase name="ntfsHintWithEf53StillTrue" classname="ext4reader.partition.ProberTest" time="0.061"/>
-  <testcase name="randomBytesIsNotExt4" classname="ext4reader.partition.ProberTest" time="0.004"/>
-  <testcase name="validSuperblockIsDetected" classname="ext4reader.partition.ProberTest" time="0.03"/>
+  <testcase name="ntfsHintWithEf53StillTrue" classname="ext4reader.partition.ProberTest" time="0.091"/>
+  <testcase name="randomBytesIsNotExt4" classname="ext4reader.partition.ProberTest" time="0.01"/>
+  <testcase name="validSuperblockIsDetected" classname="ext4reader.partition.ProberTest" time="0.04"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

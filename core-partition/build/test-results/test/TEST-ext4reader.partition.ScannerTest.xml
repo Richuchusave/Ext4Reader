@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ext4reader.partition.ScannerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-03T23:18:25.350Z" hostname="localhost" time="0.097">
+<testsuite name="ext4reader.partition.ScannerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-04T00:30:47.005Z" hostname="localhost" time="0.112">
   <properties/>
-  <testcase name="wholeDiskPresentEvenWithMbr" classname="ext4reader.partition.ScannerTest" time="0.069"/>
-  <testcase name="wholeDiskAlwaysPresent" classname="ext4reader.partition.ScannerTest" time="0.028"/>
+  <testcase name="wholeDiskPresentEvenWithMbr" classname="ext4reader.partition.ScannerTest" time="0.056"/>
+  <testcase name="wholeDiskAlwaysPresent" classname="ext4reader.partition.ScannerTest" time="0.055"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

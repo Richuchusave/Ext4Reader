@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ext4reader.ext4.DirReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-03T23:27:45.222Z" hostname="localhost" time="0.023">
+<testsuite name="ext4reader.ext4.DirReaderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-04T00:31:01.381Z" hostname="localhost" time="0.062">
   <properties/>
-  <testcase name="parseDirBlockTest" classname="ext4reader.ext4.DirReaderTest" time="0.013"/>
+  <testcase name="parseDirBlockTest" classname="ext4reader.ext4.DirReaderTest" time="0.031"/>
   <testcase name="skipsZeroInodeAndBreaksOnBadRecLen" classname="ext4reader.ext4.DirReaderTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
