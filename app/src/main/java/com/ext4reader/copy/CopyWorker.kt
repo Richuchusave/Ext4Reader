@@ -3,6 +3,8 @@ package com.ext4reader.copy
 import android.content.ContentResolver
 import androidx.documentfile.provider.DocumentFile
 import ext4reader.ext4.Ext4Fs
+import ext4reader.ext4.listDir
+import ext4reader.ext4.readInode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext

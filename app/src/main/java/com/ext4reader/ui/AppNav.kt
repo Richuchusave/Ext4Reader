@@ -3,7 +3,7 @@ package com.ext4reader.ui
 import android.net.Uri
 import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contracts.ActivityResultContracts
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -42,6 +42,7 @@ import ext4reader.blocks.BlockDevice
 import ext4reader.blocks.FileBlockDevice
 import ext4reader.ext4.DirEntry
 import ext4reader.ext4.Ext4Fs
+import ext4reader.ext4.listDir
 import ext4reader.partition.PartitionCandidate
 import ext4reader.partition.collectCandidates
 import ext4reader.partition.probeExt4
