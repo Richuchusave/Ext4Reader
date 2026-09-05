@@ -13,7 +13,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.MaterialTheme
+import com.ext4reader.ui.theme.Ext4ReaderTheme
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
         intentDevice(intent)?.let {
             statusMessage = "Launched for ${it.productName ?: it.deviceName} — request access below."
         }
-        setContent { MaterialTheme { AppRoot(this) } }
+        setContent { Ext4ReaderTheme { AppRoot(this) } }
     }
 
     override fun onDestroy() {
